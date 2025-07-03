@@ -17,9 +17,13 @@ mongoose
 
 //! CORS config
 const corsOptions = {
-  origin: ["http://localhost:5173"],
+  origin: [
+    "http://localhost:5173", // for local dev
+    "https://expense-tracker-frontend-wdda-gqmds3n8l.vercel.app" // for production
+  ],
   credentials: true,
 };
+
 app.use(cors(corsOptions));
 
 //! Middleware
