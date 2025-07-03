@@ -19,7 +19,7 @@ mongoose
 const corsOptions = {
   origin: [
     "http://localhost:5173",
-    "https://expense-tracker-frontend-wine-six.vercel.app"
+    "https://expense-tracker-frontend-livid.vercel.app"
   ],
   credentials: true,
 };
